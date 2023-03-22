@@ -1,33 +1,23 @@
 <script>
-    export default{
-        data() {
-            return {
-                jumbotron: 'Districandomi tra le cartelle, sono riuscito a creare non solo un titolo ma anche un paragrafo con Vite.'
-            }
-        }
-    };
+    export default{};
 </script>
 
 <template>
     <div>
-        <p> {{ jumbotron }} </p>
+        <img src="../assets/jumbotron.png" alt="Jumbotron">
     </div>
 </template>
 
 <style scoped>
     div {
-        padding: 2.5rem 0;
-        background-color: #000;
-        margin-top: 6.125rem;
-        border-radius: 6.25rem;
-        box-shadow: 0 0 .625rem .125rem #7df9ff;
+        margin-top: 2.5rem;
+        height: 100%;
     }
 
-    p {
-        text-align: center;
-        color: #fff;
-        font-size: 1.4em;
-        font-weight: 700;
-        text-shadow: 0 0 .625rem #fab28b;
+    img {
+        width:  100%;
+        border-radius: 2.5rem;
+        border: .125rem solid #000;
+        box-shadow: 0 0 .625rem .125rem #7df9ff;
     }
 </style>
