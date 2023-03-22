@@ -12,6 +12,9 @@
     <h1> {{title}} </h1>
 </template>
 
-<style>
-
+<style scoped>
+    h1 {
+        text-align: center;
+        color: #fff;
+    }
 </style>
