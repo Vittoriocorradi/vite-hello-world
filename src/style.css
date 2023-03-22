@@ -10,10 +10,16 @@ RESET
   box-sizing: border-box;
 }
 
+/*
+--------
+BODY
+--------
+*/
+
 body {
   height: 100vh;
   padding: 2.5rem;
-  background-color: #fab28b;
+  background-color: #f6925c;
 }
 
 #app {

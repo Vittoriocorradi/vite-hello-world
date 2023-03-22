@@ -1,10 +1,12 @@
 <script setup>
   import AppTitle from './components/AppTitle.vue';
+  import AppHero from './components/AppHero.vue';
 </script>
 
 <template>
   <div class="container">
     <AppTitle></AppTitle>
+    <AppHero></AppHero>
   </div>
 </template>
 
@@ -14,6 +16,7 @@
     max-width: 71.25rem;
     margin: 0 auto;
     background-color: #1b2838;
-    padding: 3.125rem;
+    padding: 6.25rem 3.125rem 3.125rem;
+    border-radius: 1.875rem;
   }
 </style>

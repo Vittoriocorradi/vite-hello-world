@@ -16,5 +16,7 @@
     h1 {
         text-align: center;
         color: #fff;
-    }
+        text-transform: uppercase;
+        text-shadow: 0 0 .625rem #7df9ff;
+        }
 </style>
